@@ -1,3 +1,4 @@
-export const getImageUrl = (path : string) => {
-    return new URL(`assets/${path}`, import.meta.url).href;
-}
+export const getImageUrl = (path: string) => {
+    const baseUrl = import.meta.env.BASE_URL || '/';
+    return new URL(`${baseUrl}assets/${path}`, import.meta.url).href;
+};
