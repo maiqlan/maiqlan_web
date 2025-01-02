@@ -1,3 +1,6 @@
+# Details
+This website was created with guidance from [this video](https://www.youtube.com/watch?v=YQCDUJ6hhNY).
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
