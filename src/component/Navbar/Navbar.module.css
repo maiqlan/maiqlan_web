@@ -14,7 +14,7 @@
     font-size: 30px;
     font-weight: 600;
     text-decoration: none;
-    color: var(--colors-text);
+    color: var(--color-text);
 }
 
 .menu{
@@ -29,10 +29,13 @@
 
 .menuItems a{
     font-size: 25px;
-    color: var(--colors-text);
+    color: var(--color-text);
     text-decoration: none;
 }
 
+.menuBtn{
+    display: none;
+}
 /* apply styles for width of up to 830 pixels */
 @media screen and (max-width: 830px){
     .navbar{
