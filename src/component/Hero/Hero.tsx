@@ -1,20 +1,27 @@
 import React from 'react';
 import styles from './Hero.module.css'
 import { getImageUrl } from '../../utils';
+import { get } from 'http';
 
 export const Hero = () => {
     return (
-        <section className={styles.container}>
-            <div className={styles.content}>
-                <h1 className={styles.title}>Hello! I'm Ren Mai.</h1>
-                <p className={styles.description}>
-                    I'm currently a Fourth-Year computer science student at Texas A&M with a minor in mathematics. <br /><br />With regards to my areas of interest, I enjoy projects with a focus in machine learning, cryptography, parallel computing, reverse engineering, and distributed system concepts. 
-                </p>
-                <a href="Mailto:mai.lauren2@gmail.com" className={styles.contactBtn}>Contact Me</a>
+        <section className={styles.container} id="profile">
+            <div className={styles.imgContainer}>
+                <img className={styles.heroImg} src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" />
             </div>
-            <img className={styles.heroImg} src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" />
-            <div className={styles.topBlur}/>
-            <div className={styles.bottomBlur}/>
+            <div className={styles.text}>
+                <p className={styles.p1}>Hello, I'm</p>
+                <h1 className={styles.title}>Ren Mai 🌷</h1>
+                <p className={styles.p2}>Software Engineer</p>
+                <div className={styles.btnContainer}>
+                    <button className={styles.btn} onClick={() => window.open(getImageUrl("resume/resumeRen.pdf"))}>Download CV/Resume</button>
+                    <button className={styles.btn} onClick={() => location.href = "./#contact"}>Contact Info</button>
+                </div>
+                <div className={styles.socials} id="socials-container">
+                    <img className={styles.icon} src={getImageUrl("icons/linkedin.svg")} alt="linkedin" onClick={() => window.open('https://www.linkedin.com/in/maiqlan/')}/>
+                    <img className={styles.icon} src={getImageUrl("icons/github.svg")} alt="github" onClick={() => window.open('https://github.com/maiqlan')}/>
+                </div>
+            </div>
         </section>
     )
 }

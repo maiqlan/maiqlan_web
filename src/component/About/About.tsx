@@ -6,12 +6,7 @@ export const About = () => {
         <section>
             <h2>About</h2>
             <div>
-                <img src={getImageUrl("about/aboutImage.png")} alt="Me"/>
-                <ul>
-                    <li>
-                        <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
-                    </li>
-                </ul>
+                
             </div>
         </section>
     );

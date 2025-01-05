@@ -1,5 +1,5 @@
 # Details
-This website was created with guidance from [this video](https://www.youtube.com/watch?v=YQCDUJ6hhNY).
+This website was created with styling guidance from [this video](https://www.youtube.com/watch?v=YQCDUJ6hhNY) and [this video](https://www.youtube.com/watch?v=ldwlOzRvYOU).
 
 # React + TypeScript + Vite
 
