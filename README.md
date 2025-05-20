@@ -1,12 +1,15 @@
 # Details
 This website was created with styling guidance from [this video](https://www.youtube.com/watch?v=YQCDUJ6hhNY) and [this video](https://www.youtube.com/watch?v=ldwlOzRvYOU).
 
+# Locally
+To run project locally, cd into correct directory and from cli, invoke `npm run dev`.
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
-
+ 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
